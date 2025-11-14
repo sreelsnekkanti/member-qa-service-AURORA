@@ -62,11 +62,17 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
 Once the server is running, you can visit:
 
-API root: http://localhost:8000
+Public API Base URL: https://member-qa-service-aurora.onrender.com
 
-Swagger UI: http://localhost:8000/docs
+Swagger UI: https://member-qa-service-aurora.onrender.com/docs
 
-Example query: http://localhost:8000/ask?q=How%20many%20cars%20does%20Vikram%20Desai%20have%3F
+Example Query: How many cars does Vikram Desai have?
+Request URL: https://member-qa-service-aurora.onrender.com/ask?q=How%20many%20cars%20does%20Vikram%20Desai%20have%3F
+Output:
+{
+  "answer": "2"
+}
+
 
 Alternative approaches:
 * Alternative approaches that can be considered are TF-IDF similarity, full semantic search and a miniature RAG pipeline.
