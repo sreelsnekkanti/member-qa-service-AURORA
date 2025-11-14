@@ -67,8 +67,11 @@ Public API Base URL: https://member-qa-service-aurora.onrender.com
 Swagger UI: https://member-qa-service-aurora.onrender.com/docs
 
 Example Query: How many cars does Vikram Desai have?
+
 Request URL: https://member-qa-service-aurora.onrender.com/ask?q=How%20many%20cars%20does%20Vikram%20Desai%20have%3F
+
 Output:
+
 {
   "answer": "2"
 }
